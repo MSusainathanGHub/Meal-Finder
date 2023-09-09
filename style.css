@@ -1,0 +1,171 @@
+body {
+    text-align: center;
+    background-image: url("hotel.jpg");
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .title {
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+  }
+  
+  .search-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    margin: auto;
+  }
+
+  .search {
+    height: 35px;
+    width: 120%;
+  }
+
+  .search-btn{
+    margin-left: 10px;
+    height: 30%;
+  }
+
+  .show {
+    display: block;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .banner{
+    padding: 20px;
+   text-align: center;
+  }
+
+  
+  .mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;;
+  }
+  
+  .parentDiv {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 20%;
+  }
+
+  
+  .card {
+    height: 400px;
+    width: 15%;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
+
+  /* no food found */
+
+  .error {
+    display: none;
+    width: 80%;;
+    margin: 80px auto; 
+    text-align: center;
+  }
+  
+  .showerror{
+    display: block;
+  }
+
+  .watchVideo{
+   overflow: hidden;
+   width: 200px;
+   margin: auto;
+   text-align: center;
+  }
+
+  p{
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+
+             /* Media query for iPads and tablets  */
+
+    @media screen and (max-width: 1366px) {
+
+        body{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .title {
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+          }
+          img{
+            height: 100px;
+            width: 50px;
+          }
+    
+          .search {
+            height: 30px;
+            width: 550px;
+          }
+        
+          .search-btn{
+            margin-left: 10px;
+            height: 30px;
+            font-size: 10px;
+          }
+    
+          .error {
+            font-size: 12px;
+    
+          }
+    
+          .mainDiv{
+            margin-top: 20px;
+          }
+    
+          .card-text{
+            font-size: 15px;
+            margin: auto;
+          }
+    
+         
+          .p{
+            font-size: 12px;
+            font-weight: bold;
+          }
+    
+          .card{
+            height: 200px;
+            width: 100px;
+          }
+    
+          .parent{
+            flex: 15%;
+          }
+    
+          .watchVideo{
+            height: 30px;
+            width: 100px;
+            font-size: 12px;
+            text-align: center;
+            margin: auto;
+          }
+    
+        }
+ 
+       @media screen and (max-width: 640px) {
+
+          .parent{
+            flex: 30%;
+          }
+    
+        }
+         
